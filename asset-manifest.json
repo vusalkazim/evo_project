@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/evo_project/static/css/main.da67b0cd.css",
+    "main.js": "/evo_project/static/js/main.8127704d.js",
+    "static/media/swiper-3.jpg": "/evo_project/static/media/swiper-3.2154e4a0a4d80f3b0ac1.jpg",
+    "static/media/swiper-2.jpg": "/evo_project/static/media/swiper-2.38566fed2b7b9d53dc9d.jpg",
+    "static/media/swiper-1.jpg": "/evo_project/static/media/swiper-1.d84ef3116511be8e0af9.jpg",
+    "static/media/gallery-2.jpg.webp": "/evo_project/static/media/gallery-2.jpg.7da6dd4e59544e858b38.webp",
+    "static/media/Blogdropdown-bg.jpg": "/evo_project/static/media/Blogdropdown-bg.190d13e003d641811741.jpg",
+    "static/media/blog-5.jpg": "/evo_project/static/media/blog-5.0eb822c85d36f2f673ef.jpg",
+    "static/media/blog-8.jpg": "/evo_project/static/media/blog-8.ea7c711054ee766a3175.jpg",
+    "static/media/about-1.jpg": "/evo_project/static/media/about-1.efe5e2db2a1b17af697a.jpg",
+    "static/media/event-5.jpg": "/evo_project/static/media/event-5.d269ab363aa7b4f32a8f.jpg",
+    "static/media/event-1.jpg": "/evo_project/static/media/event-1.748ba51138a710e68cb4.jpg",
+    "static/media/event-3.jpg": "/evo_project/static/media/event-3.1375dd2b5e2c9a397c5b.jpg",
+    "static/media/blog-4.jpg": "/evo_project/static/media/blog-4.f5fb3f1c8741e7b8ee51.jpg",
+    "static/media/about-p3.jpg": "/evo_project/static/media/about-p3.91f9aeb61db758e465db.jpg",
+    "static/media/event-4.jpg": "/evo_project/static/media/event-4.b723e507895be6859544.jpg",
+    "static/media/blog-7.jpg": "/evo_project/static/media/blog-7.3f3c33ac44651877df57.jpg",
+    "static/media/room-b1.jpg": "/evo_project/static/media/room-b1.cbbd9c0ed609690202b2.jpg",
+    "static/media/blog-details-2.jpg": "/evo_project/static/media/blog-details-2.d4d05844f54846ac5bea.jpg",
+    "static/media/room-b4.jpg": "/evo_project/static/media/room-b4.b7038b7367f510e07339.jpg",
+    "static/media/event-2.jpg": "/evo_project/static/media/event-2.6da4de15d16336f66e97.jpg",
+    "static/media/blog-9.jpg": "/evo_project/static/media/blog-9.7b0b050bbe2e015c4bfd.jpg",
+    "static/media/blog-details-3.jpg": "/evo_project/static/media/blog-details-3.4ac160b03fbbfc36049e.jpg",
+    "static/media/blog-6.jpg": "/evo_project/static/media/blog-6.d480121b1a8e02fe943e.jpg",
+    "static/media/galery-3.webp": "/evo_project/static/media/galery-3.542f76c54268b1dc3b8c.webp",
+    "static/media/about-2.jpg": "/evo_project/static/media/about-2.53642a2f3a54da015edf.jpg",
+    "static/media/room-b3.jpg": "/evo_project/static/media/room-b3.1bfb8d6ced986e23b1e0.jpg",
+    "static/media/gallery-1.jpg.webp": "/evo_project/static/media/gallery-1.jpg.4148dda435b808ff0f7d.webp",
+    "static/media/galery-4.webp": "/evo_project/static/media/galery-4.dd18b43cb7916e8b4d6b.webp",
+    "index.html": "/evo_project/index.html",
+    "main.da67b0cd.css.map": "/evo_project/static/css/main.da67b0cd.css.map",
+    "main.8127704d.js.map": "/evo_project/static/js/main.8127704d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da67b0cd.css",
+    "static/js/main.8127704d.js"
+  ]
+}
