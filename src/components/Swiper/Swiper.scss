@@ -1,0 +1,279 @@
+
+.swiper_img{
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100vh;//min
+    margin-top: 20px;
+    position: relative;
+   
+    .swiper-1{
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;//min
+        
+    }
+}
+.swiper_item{
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    max-width: 1400px;
+    height: 100vh;//min
+    margin: 0 auto;
+    .hotel{
+        max-width: 750px;
+        height: 60vh;//min
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        h1{
+            font-size: 70px;
+            font-weight: 200;
+        }
+        p{
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 35px;
+            margin-top: 10px;
+        }
+        button{
+            margin-top: 35px;
+            font-weight: 600;
+            border: none;
+            border-bottom: 2px solid sandybrown;
+            background-color: transparent;
+            cursor: pointer;
+            color: white;
+        }
+        .hotel_content{
+            width: 80%;
+            height: 90%;
+        }
+    }
+    .form{
+        width: 395px;
+        height: 90vh;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        .form_content{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            border-radius: 12px;
+            h4{
+                font-weight: 400;
+                font-size: 35px;
+                margin-bottom: 50px;
+                margin-top: 15px;
+            }
+        }
+        .label{
+            color: gray;
+            margin-left: 22px;
+        }
+        .form_input{
+            width: 350px;
+           height: 50px;
+           margin-top: 15px;
+           margin-bottom: 15px;
+           padding-left: 10px;
+           margin-left: 22px;
+        }
+    }
+
+}
+.form_button{
+    border: 2px solid sandybrown;
+    color: sandybrown;
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 20px;
+    transition: 0.4s ease all;
+    font-size: 17px;
+    margin-left: 22px;
+    cursor: pointer;
+    &:hover{
+        background-color: sandybrown;
+        color: white;
+        border-radius: 15px;
+    }
+}
+.form_ata{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+}
+
+@media only screen and (max-width:1250px) {
+    .swiper_item{
+        width: 90%;
+        height: 90%;
+        margin-top: 15px;
+    }
+    .swiper_img{
+        width: 100%;
+        height: 70%;
+    }
+}
+@media only screen and (max-width:900px) {
+    // .swiper_img{
+    //     height: 210vh;
+    // }
+    .swiper_item{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        .form_ata{
+            width: 90%;
+            height: 55%;
+            .form{
+                height: 100%;
+                width: 100%;
+                .form_content{
+                    height: 100%;
+                    width: 100%;
+                    form{
+                        width: 100%;
+                        .label{
+                            width: 50%;
+                        }
+                        .form_input{
+                            width: 95%;
+                        }
+                        .form_button{
+                            width: 95%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// @media only screen and (max-width:1050px) {
+//     .swiper_img{
+//         max-width: 1024px;
+//         height: 63vh;
+//         .swiper-1{
+//             object-fit: cover;
+//             width: 100%;
+//             height: 100%;
+//         }
+//     }
+//     .swiper_item{
+//         max-width: 1024px;
+//         height: 63vh;
+//         .hotel{
+//             height: 50vh;
+//            display: flex;
+//            justify-content: start;
+//         }
+//         .form_ata{
+//             display: flex;
+//             align-items: center;
+//             width: 600px;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+          
+//         }
+//         .form{
+//             height: 53vh;
+//             width: 400px;
+//             margin-right: 50px;
+//        }
+      
+//     }
+  
+// }
+// @media only screen and (max-width:800px) {
+//    .swiper_img{
+//     max-width: 770px;
+//     height: 105vh;
+//     .swiper-1{
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//     }
+//    }
+//     .swiper_item{
+//         width: 770px;
+//         height: 100vh;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         .hotel{
+//             width: 90%;
+//         }
+//         .form_ata{
+//             width: 700px;
+//             height: 60vh;
+//             .form{
+//                 width: 100%;
+//                 height: 58vh;
+//                 .form_content{
+//                   div{
+//                     .form_input{
+//                         width: 600px;
+//                     }
+//                   }
+//                   .form_button{
+//                     width: 600px;
+//                   }
+//                 }
+//             }
+//         }
+//     }   
+// }
+// @media only screen and (max-width:720px) {
+//     .form_ata{
+//         background-color: orangered;
+//         max-width: 600px;
+//         .form{
+//             .form_content{
+//                 background-color: aqua;
+//                 width: 100%;
+//                 form{
+//                     background-color: lightgreen;
+//                     width: 100%;
+//                     div{
+//                         background-color: lightsalmon;
+//                         width: 100%;
+//                         .label{
+//                             width: 30%;
+//                             background-color: lightgreen;
+//                         }
+//                         // .form_input{
+//                         //     width: 100px;
+//                         //     background-color: lightcoral;
+//                         // }
+//                         input{
+//                             background-color: lawngreen;
+//                             width: 20%;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

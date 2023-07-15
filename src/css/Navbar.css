@@ -1,0 +1,231 @@
+.menu {
+  background-color: rgba(181, 83, 13, 0.729);
+  width: 50%;
+  height: 100vh;
+  margin-top: 20px;
+  position: absolute;
+  z-index: 5;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease all;
+}
+.menu .sosial {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  gap: 10px;
+}
+.menu .sosial i {
+  color: white;
+  font-size: 25px;
+  transition: 0.3s;
+}
+.menu .sosial i:hover {
+  color: rgba(244, 165, 96, 0.339);
+}
+.menu .menu_link {
+  background-color: sandybrown;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 6px;
+  width: 45%;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.4s;
+  color: white;
+  border: 2px solid sandybrown;
+}
+.menu .menu_link:hover {
+  background-color: rgb(232, 137, 69);
+  width: 65%;
+  border: 2px solid white;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 1400px;
+  height: 9vh;
+  display: flex;
+  position: relative;
+}
+nav .bars {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: rgb(234, 138, 53);
+  transition: 0.4s;
+}
+nav .bars .burger-bar {
+  background-color: black;
+  width: 40px;
+  height: 8px;
+  border-radius: 12px;
+}
+nav .navbar_left {
+  width: 45%;
+  height: 9vh;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .navbar_left .left_word {
+  width: 27%;
+  height: 9vh;
+  font-size: 38px;
+  display: flex;
+  align-items: center;
+}
+nav .navbar_left div {
+  width: 27%;
+}
+nav .navbar_right {
+  width: 55%;
+  margin-top: 10px;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+nav .navbar_right .dropdown {
+  background: white;
+  position: absolute;
+  top: 37px;
+  left: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  z-index: 8;
+  width: 160px;
+  overflow: hidden;
+  height: 0px;
+  box-shadow: 5px 10px 8px rgba(136, 136, 136, 0.3843137255);
+}
+nav .navbar_right .dropdown_link {
+  padding-left: 14px;
+  text-decoration: none;
+  color: black;
+}
+nav .navbar_right .dropdown_link:hover {
+  color: sandybrown;
+}
+nav .navbar_right .nav_link2 {
+  border-bottom: 2px solid white;
+}
+nav .navbar_right div {
+  background-color: lightgoldenrodyellow;
+  position: relative;
+  background-color: azure;
+}
+nav .navbar_right div i {
+  right: 75px;
+  top: 5px;
+  position: absolute;
+  pointer-events: none;
+  cursor: pointer;
+}
+nav .navbar_right div input {
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+nav .navbar_right div input:focus {
+  outline-color: sandybrown;
+}
+nav .navbar_right .nav_pages_link:hover .dropdown {
+  height: 100px;
+  transition: 0.8s;
+}
+nav .navbar_right .nav_pages_link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  border-bottom: 2px solid white;
+}
+nav .navbar_right .nav_pages_link:hover {
+  border-bottom: 2px solid sandybrown;
+}
+nav .navbar_right .nav_link2 {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  transition: 0.3s;
+}
+nav .navbar_right .nav_link2:hover {
+  border-bottom: 2px solid sandybrown;
+}
+
+@media only screen and (max-width: 1050px) {
+  nav {
+    margin-top: 10px;
+    max-width: 995px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .navbar_left {
+    height: 5vh;
+    width: 27%;
+  }
+  nav .navbar_right {
+    height: 5vh;
+    width: 60%;
+  }
+  nav .navbar_right div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 60px;
+    position: relative;
+    margin-right: 10px;
+  }
+  nav .navbar_right div input {
+    width: 115px;
+  }
+  nav .navbar_right div i {
+    position: absolute;
+    left: 50px;
+    top: 23px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav .navbar_right {
+    display: none;
+  }
+  nav .bars {
+    display: block;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    min-width: 70px;
+    justify-content: center;
+    transition: 0.4s ease all;
+    margin-right: 30px;
+  }
+  nav .bars:hover .burger-bar {
+    background-color: sandybrown;
+    transition: 0.4s ease all;
+  }
+  .menu {
+    height: 50vh;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

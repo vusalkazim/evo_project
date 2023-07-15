@@ -1,0 +1,131 @@
+.aboutUs {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.aboutUs h1 {
+  font-weight: 400;
+}
+.aboutUs_item {
+  width: 15%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutUs_item .link span {
+  color: gray;
+  font-size: 17px;
+}
+.aboutUs_item .link .aboutus_link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.sona {
+  max-width: 1400px;
+  height: 55vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.sona_left {
+  width: 45%;
+  height: 50vh;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+.sona_left h1 {
+  font-weight: 400;
+  font-size: 50px;
+}
+.sona_left p {
+  color: gray;
+  font-size: 18px;
+}
+.sona_right {
+  width: 38%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sona_right_content {
+  display: flex;
+  width: 280px;
+  gap: 5px;
+}
+.sona_right_content p {
+  font-size: 19px;
+  color: rgb(163, 162, 162);
+}
+.sona_right_content i {
+  font-size: 17px;
+  color: sandybrown;
+}
+
+@media only screen and (max-width: 1050px) {
+  .aboutUs {
+    height: 14vh;
+    max-width: 1020px;
+  }
+  .aboutUs_item {
+    width: 25%;
+    height: 100%;
+  }
+  .sona {
+    max-width: 1020px;
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sona_left {
+    height: 23vh;
+  }
+  .sona_right {
+    height: 23vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .sona {
+    max-width: 800px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sona_left {
+    height: 27vh;
+  }
+  .sona_right {
+    height: 27vh;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .sona {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 609px;
+  }
+  .sona_left {
+    height: 50%;
+    width: 90%;
+  }
+  .sona_right {
+    height: 40%;
+    width: 90%;
+  }
+}/*# sourceMappingURL=AboutUs.css.map */

@@ -1,0 +1,164 @@
+.swiper_img {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+  margin-top: 20px;
+  position: relative;
+}
+.swiper_img .swiper-1 {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper_item {
+  display: flex;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.swiper_item .hotel {
+  max-width: 750px;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.swiper_item .hotel h1 {
+  font-size: 70px;
+  font-weight: 200;
+}
+.swiper_item .hotel p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  margin-top: 10px;
+}
+.swiper_item .hotel button {
+  margin-top: 35px;
+  font-weight: 600;
+  border: none;
+  border-bottom: 2px solid sandybrown;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+.swiper_item .hotel .hotel_content {
+  width: 80%;
+  height: 90%;
+}
+.swiper_item .form {
+  width: 395px;
+  height: 90vh;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.swiper_item .form .form_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+}
+.swiper_item .form .form_content h4 {
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+.swiper_item .form .label {
+  color: gray;
+  margin-left: 22px;
+}
+.swiper_item .form .form_input {
+  width: 350px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  margin-left: 22px;
+}
+
+.form_button {
+  border: 2px solid sandybrown;
+  color: sandybrown;
+  background-color: white;
+  width: 350px;
+  height: 50px;
+  margin-bottom: 20px;
+  transition: 0.4s ease all;
+  font-size: 17px;
+  margin-left: 22px;
+  cursor: pointer;
+}
+.form_button:hover {
+  background-color: sandybrown;
+  color: white;
+  border-radius: 15px;
+}
+
+.form_ata {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  align-items: end;
+}
+
+@media only screen and (max-width: 1250px) {
+  .swiper_item {
+    width: 90%;
+    height: 90%;
+    margin-top: 15px;
+  }
+  .swiper_img {
+    width: 100%;
+    height: 70%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .swiper_item {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .swiper_item .form_ata {
+    width: 90%;
+    height: 55%;
+  }
+  .swiper_item .form_ata .form {
+    height: 100%;
+    width: 100%;
+  }
+  .swiper_item .form_ata .form .form_content {
+    height: 100%;
+    width: 100%;
+  }
+  .swiper_item .form_ata .form .form_content form {
+    width: 100%;
+  }
+  .swiper_item .form_ata .form .form_content form .label {
+    width: 50%;
+  }
+  .swiper_item .form_ata .form .form_content form .form_input {
+    width: 95%;
+  }
+  .swiper_item .form_ata .form .form_content form .form_button {
+    width: 95%;
+  }
+}/*# sourceMappingURL=Swiper.css.map */

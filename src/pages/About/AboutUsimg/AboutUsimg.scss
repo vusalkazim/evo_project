@@ -1,0 +1,63 @@
+.AboutUsimg{
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    .jpeg{
+        width: 28%;
+        height: 60vh;
+        border-radius: 8px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        .aboutus_word{
+            position: absolute;
+            top: 85%;
+            h3{
+                color: white;
+            }
+        }
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+    }
+}
+@media only screen and (max-width:1050px) {
+    .AboutUsimg{
+        max-width: 1020px;
+        height: 40vh;
+        .jpeg{
+            width: 30%;
+            height: 35vh;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+@media only screen and (max-width:850px) {
+    .AboutUsimg{
+        max-width: 849px;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .jpeg{
+            height: 30%;
+            width: 60%;
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

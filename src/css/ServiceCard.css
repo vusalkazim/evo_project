@@ -1,0 +1,124 @@
+.services_header {
+  max-width: 1400px;
+  height: 35vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services_header_content {
+  text-align: center;
+}
+.services_header_content h5 {
+  color: sandybrown;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.services_header_content h2 {
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.service {
+  max-width: 1400px;
+  height: 95vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service_container {
+  width: 85%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.service_container .services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 32%;
+  height: 45%;
+  line-height: 30px;
+  text-align: center;
+  transition: 0.4s;
+}
+.service_container .services:hover {
+  background-color: sandybrown;
+  color: white;
+}
+.service_container .services:hover img {
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+.service_container .services:hover p {
+  color: white;
+}
+.service_container .services i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.service_container .services h4 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.service_container .services p {
+  color: rgba(128, 128, 128, 0.672);
+  font-size: 18px;
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .services_header {
+    width: 100%;
+    height: 14vh;
+  }
+  .services_header_content {
+    width: 70%;
+    height: 90%;
+  }
+  .service {
+    width: 100%;
+  }
+  .service_container {
+    width: 95%;
+    height: 95%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .service {
+    height: 90vh;
+    width: 100%;
+  }
+  .service_container {
+    width: 97%;
+    height: 97%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .service_container .services {
+    width: 40%;
+    height: 31%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .service {
+    height: 200vh;
+    width: 100%;
+  }
+  .service_container {
+    width: 97%;
+    height: 97%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .service_container .services {
+    width: 67%;
+    height: 30vh;
+  }
+}/*# sourceMappingURL=ServiceCard.css.map */
